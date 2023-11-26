@@ -19,16 +19,12 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
-#PYTHON PROGRAM TO SWAP TWO VARIABLES
-#DESIGNED BY: SRIJITH R
-#REFERENCE NUMBER: 21004191
-
-x,y=int(input("enter num1")),int(input("enter num2"))
-print("before swapping",x,y)
-z=x
-x=y
-y=z
-print("after swapping",x,y)
+#Program to swap two values.
+#Developed by: SRIJITH R
+#RegisterNumber: 212221240054
+num1,num2=int(input()),int(input())
+num1,num2=num2,num1
+print('Swapped values are:',num1,num2)
 
 ```
 ### OUTPUT
